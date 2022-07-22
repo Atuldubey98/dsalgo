@@ -1,0 +1,98 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArraysImplementation",
+            "request": "launch",
+            "mainClass": "com.learndsfinal.dsalgo.arrays.ArraysImplementation",
+            "projectName": "dsalgo"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearchTree",
+            "request": "launch",
+            "mainClass": "com.learndsfinal.dsalgo.binaryTree.BinarySearchTree",
+            "projectName": "dsalgo"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTree",
+            "request": "launch",
+            "mainClass": "com.learndsfinal.dsalgo.binaryTree.BinaryTree",
+            "projectName": "dsalgo"
+        },
+        {
+            "type": "java",
+            "name": "Launch CircularSinglyLinkedList",
+            "request": "launch",
+            "mainClass": "com.learndsfinal.dsalgo.linkedlists.CircularSinglyLinkedList",
+            "projectName": "dsalgo"
+        },
+        {
+            "type": "java",
+            "name": "Launch DoublyLinkedList",
+            "request": "launch",
+            "mainClass": "com.learndsfinal.dsalgo.linkedlists.DoublyLinkedList",
+            "projectName": "dsalgo"
+        },
+        {
+            "type": "java",
+            "name": "Launch SinglyLinkedList",
+            "request": "launch",
+            "mainClass": "com.learndsfinal.dsalgo.linkedlists.SinglyLinkedList",
+            "projectName": "dsalgo"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortedMatrix",
+            "request": "launch",
+            "mainClass": "com.learndsfinal.dsalgo.matrix.SortedMatrix",
+            "projectName": "dsalgo"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxPriorityQueue",
+            "request": "launch",
+            "mainClass": "com.learndsfinal.dsalgo.queue.MaxPriorityQueue",
+            "projectName": "dsalgo"
+        },
+        {
+            "type": "java",
+            "name": "Launch Queue",
+            "request": "launch",
+            "mainClass": "com.learndsfinal.dsalgo.queue.Queue",
+            "projectName": "dsalgo"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "com.learndsfinal.dsalgo.queue.Solution",
+            "projectName": "dsalgo"
+        },
+        {
+            "type": "java",
+            "name": "Launch Stack",
+            "request": "launch",
+            "mainClass": "com.learndsfinal.dsalgo.stack.Stack",
+            "projectName": "dsalgo"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringImplementation",
+            "request": "launch",
+            "mainClass": "com.learndsfinal.dsalgo.strings.StringImplementation",
+            "projectName": "dsalgo"
+        }
+    ]
+}
