@@ -1,5 +1,7 @@
 package com.learndsfinal.dsalgo.queue;
 
+import java.util.Arrays;
+
 public class MaxPriorityQueue {
     //Max heap = Complete binary tree with parent greater than children
     //Opposite for maximum
@@ -19,12 +21,19 @@ public class MaxPriorityQueue {
     public void insert(int value) {
         if(n == heap.length-1)
         {
-            System.out.println("Max heap full or resize the heap array by 2 * n");
-            return;
+            System.out.println("Max heap full or resize the heap array by 2 * n. Resizing it");
+            resize(2*this.heap.length);
         }
         n++;
         heap[n]=value;
         swim(n);
+    }
+    private void resize(int capacity) {
+        int a[]=new int[capacity];
+        for (int i = 0; i < heap.length; i++) {
+            a[i]=heap[i];
+        }
+        this.heap=a;
     }
     // Use swim for MAX heap
     private void swim(int k) {
@@ -36,9 +45,13 @@ public class MaxPriorityQueue {
         }
     }
     public static void main(String[] args) {
-        MaxPriorityQueue maxPriorityQueue=new MaxPriorityQueue(6);
-        System.out.println(maxPriorityQueue.heap);
-        System.out.println(maxPriorityQueue.isEmpty());
+        MaxPriorityQueue maxPriorityQueue=new MaxPriorityQueue(3);
+        maxPriorityQueue.insert(4);
+        maxPriorityQueue.insert(5);
+        maxPriorityQueue.insert(6);
+        maxPriorityQueue.insert(1);
+        maxPriorityQueue.insert(3);
         System.out.println(maxPriorityQueue.size());
+        System.out.println(Arrays.toString(maxPriorityQueue.heap));
     }
 }
