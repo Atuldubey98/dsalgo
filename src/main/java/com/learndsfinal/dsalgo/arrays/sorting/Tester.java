@@ -7,9 +7,8 @@ public class Tester {
         System.out.println(Arrays.toString(a));
     }
     public static void main(String[] args) {
-        int a[]= {0,1,2,1,0,1,2,0,2,1};
-        DutchNationalFlagProblem dProblem=new DutchNationalFlagProblem();
-        dProblem.sort(a);
-        printArray(a);
+        int a[]= {-1,2};
+        RearrangeMaxMinForm rearrangeMaxMinForm=new RearrangeMaxMinForm();
+        printArray(rearrangeMaxMinForm.solution(a));
     }
 }
