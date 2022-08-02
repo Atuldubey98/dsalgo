@@ -51,7 +51,6 @@ public class MaxPriorityQueue {
         maxPriorityQueue.insert(6);
         maxPriorityQueue.insert(1);
         maxPriorityQueue.insert(3);
-        System.out.println(maxPriorityQueue.size());
         System.out.println(Arrays.toString(maxPriorityQueue.heap));
     }
 }
