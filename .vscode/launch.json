@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch GraphLinkedList",
+            "request": "launch",
+            "mainClass": "com.learndsfinal.dsalgo.graph.GraphLinkedList",
+            "projectName": "dsalgo"
+        },
+        {
+            "type": "java",
             "name": "Launch Tester",
             "request": "launch",
             "mainClass": "com.learndsfinal.dsalgo.arrays.sorting.Tester",
