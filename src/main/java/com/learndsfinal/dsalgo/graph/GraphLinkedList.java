@@ -29,6 +29,7 @@ public class GraphLinkedList {
         this.graph[v].add(u);
         this.E++;
     }
+    @Override
     public String toString()
     {
         StringBuilder sb=new StringBuilder();
@@ -37,9 +38,7 @@ public class GraphLinkedList {
         {
             sb.append(i).append(" : ");
             for(int val : this.graph[i])
-            {
                 sb.append(val + " ");
-            }
             sb.append("\n");
         }
         return sb.toString();
