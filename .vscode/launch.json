@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Trie",
+            "request": "launch",
+            "mainClass": "com.learndsfinal.dsalgo.trie.Trie",
+            "projectName": "dsalgo"
+        },
+        {
+            "type": "java",
             "name": "Launch GraphCountConnected",
             "request": "launch",
             "mainClass": "com.learndsfinal.dsalgo.graph.GraphCountConnected",

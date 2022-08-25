@@ -1,0 +1,14 @@
+Definition :  Breaking the problem into smaller subproblems.
+
+1 Solving those subproblems and simply storing the results
+2 Reuse those stored results if subproblems occurs
+3 Finally using solutions to smaller problems to solutions to bigger problems
+
+1+1+1+1
+We have to count it to 4. But if we put +1 now we will get the answer as 5. This is dynamic Programming.
+It is optimization over recursion
+DP = recursion+memorization
+eg = fibonacci series
+fibo(0) = 0
+fibo(1) = 1
+fibo(n-1) + fibo(n-2)
