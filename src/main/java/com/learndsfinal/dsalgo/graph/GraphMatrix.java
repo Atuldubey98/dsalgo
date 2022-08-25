@@ -12,8 +12,14 @@ import java.util.Arrays;
  */
 public class GraphMatrix {
     private int[][] graph;
+    public int[][] getGraph() {
+        return graph;
+    }
     private int E;
     private int V;
+    public int getV() {
+        return V;
+    }
     public GraphMatrix(int nodes)
     {
         this.V=nodes;
@@ -30,13 +36,5 @@ public class GraphMatrix {
         for(int a[] : graph)
             System.out.println(Arrays.toString(a));
     }
-    public static void main(String[] args) {
-        GraphMatrix graph = new GraphMatrix(4);
-        graph.addEdge(0, 1);
-        graph.addEdge(1, 2);
-        graph.addEdge(2, 3);
-        graph.addEdge(3, 1);
-        graph.addEdge(3, 2);
-        graph.display();
-    }
+    
 }

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch GraphCountConnected",
+            "request": "launch",
+            "mainClass": "com.learndsfinal.dsalgo.graph.GraphCountConnected",
+            "projectName": "dsalgo"
+        },
+        {
+            "type": "java",
             "name": "Launch GraphLinkedList",
             "request": "launch",
             "mainClass": "com.learndsfinal.dsalgo.graph.GraphLinkedList",
