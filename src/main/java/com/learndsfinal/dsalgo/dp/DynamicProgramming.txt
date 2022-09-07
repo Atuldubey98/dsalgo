@@ -12,3 +12,32 @@ eg = fibonacci series
 fibo(0) = 0
 fibo(1) = 1
 fibo(n-1) + fibo(n-2)
+
+A Questions is solved by DP if both the properties satisfies.
+
+1 Optimal Substructure
+problem can be converted to subproblems and subproblems can be solved in Optimal way then it is called optimal Substructure
+
+2 Overlapping subproblems
+
+Bottom up aproach
+
+public int fibo(int n)
+{
+	int table[]=new int[n+1];
+	table[0]=0;
+	table[1]=1;
+	for(int i=2;i<n;i++)
+	{
+		table[i]=table[i-1]+table[i-2]
+	}
+	return table[n];
+}
+
+
+Top Down Approach
+
+It is also callled memoization
+we break the large problem into subproblems
+each subproblem are solved and solution is remembered
+The  each subproblem solution is used when required.
