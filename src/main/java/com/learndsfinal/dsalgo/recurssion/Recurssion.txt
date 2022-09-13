@@ -1,0 +1,36 @@
+Recurssion solutions need base solutions. Base solutions is basically a if statement to end the loop.
+If we don't provide that loop will not end.
+A Recurssive solution can be converted to Itertive and viceversa
+There will be space complexity because the call is recussive and it takes space.
+It will break the bigger problem into smaller. Smaller can be solved to generate solutions for bigger problems.
+
+Visualize recurssion
+1 Identify if you can break the problem down.
+2 Write the recurrence relation if needed
+3 Draw the recurssive tree.
+4 About the tree.
+5 See how the values are returned at each step. See where the function call will come.
+6 Make sure to return the result of function call.
+
+See the flow of functions - : How they are getting in stack.
+eg  : Identify and focus on left tree calls and right tree calls
+Unless and left tree is finshed executing the right treee wont be called.
+Draw the tree an pointer again and again using pen and paper.
+use the debugger to see the flow. See where the function call will come out of the function and ater that the main function.
+
+Variables -  1 Arguments 2 Return type 3 Body of function
+
+Q1 Binary Search with recurssion
+1 Comparing O(1)
+2 Dividing the array into half. f(N/2)
+
+F(N) = O(1) + F(N/2) - Recurrence relation
+
+Types of recurrence relation - :
+1 Linear recurrence relation eg Fibo
+2 Divide and conquer relation eg binarySearch
+
+For fibo the time complexity is golden ratio raise to power n
+Search space is reducing in dividing and conquer. So it is more efficient.
+In linear it reducing one by one. So it slow. Fastest way is using bottom up approach in DP. If answer is again and again coming in recurrence we will store the result so that it can be used.
+

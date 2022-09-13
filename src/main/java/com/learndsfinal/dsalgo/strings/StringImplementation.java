@@ -47,8 +47,20 @@ public class StringImplementation {
         }
         return true;
     }
+    public String removeVowels()
+    {
+        StringBuilder str = new StringBuilder();
+        for(int i=0;i<s.length();i++)
+        {
+            char c = s.charAt(i);
+            if(c=='a'|| c=='i' || c == 'e' || c=='o' || c == 'u')
+                continue;
+            str.append(c);
+        }
+        return str.toString();
+    }
     public static void main(String[] args) {
-        StringImplementation stringImplementation = new StringImplementation("fjgjh");
-        System.out.println(stringImplementation.reverse());
+        StringImplementation stringImplementation = new StringImplementation("what is your name ?");
+        System.out.println(stringImplementation.removeVowels());
     }
 }
